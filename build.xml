@@ -62,7 +62,7 @@
 						--log-junit ${base}/build/logs/junit.xml
 						--coverage-clover ${base}/build/logs/clover.xml
             			--coverage-html ${base}/web
-            			--configuration ${base}/tests/phpunit.xml"/>
+            			--configuration /var/lib/jenkins/jobs/tzander_phpundertest/workspace/tests/phpunit.xml"/>
         </exec>
     </target>
 
