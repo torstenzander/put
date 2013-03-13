@@ -1,0 +1,25 @@
+{
+    "name": "tzander/put",
+    "type": "library",
+    "description": "Php",
+    "keywords": ["phpunit", "selenium"],
+    "homepage": "http://tzander.de",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Torsten Zander",
+            "email": "info@tzander.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/torstenzander/put"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "symfony/depenency-injection": "2.2.*",
+        "symfony/config": "2.2.*"
+    }
+}
