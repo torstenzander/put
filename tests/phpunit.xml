@@ -1,0 +1,16 @@
+<phpunit backupGlobals="false" backupStaticAttributes="false"
+         bootstrap="../library/Autoload.php" colors="true" convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true" convertWarningsToExceptions="true"
+         processIsolation="false" stopOnFailure="false" syntaxCheck="false"
+        >
+    <testsuites>
+        <testsuite name="Put Tests">
+            <directory>Put</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../library/Put</directory>
+        </whitelist>
+    </filter>
+</phpunit>
