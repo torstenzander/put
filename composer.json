@@ -2,7 +2,7 @@
     "name": "tzander/put",
     "type": "library",
     "description": "Php",
-    "keywords": ["phpunit", "selenium"],
+    "keywords": ["xunit"],
     "homepage": "http://tzander.de",
     "license": "MIT",
     "authors": [
